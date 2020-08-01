@@ -1,0 +1,33 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "A machine learning app.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "HOST=localhost nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Nicholas Renotte",
+  "license": "ISC",
+  "dependencies": {
+    "@carbon/charts-react": "^0.34.6",
+    "@carbon/icons-react": "^10.14.0",
+    "axios": "^0.19.2",
+    "carbon-components": "^10.16.0",
+    "carbon-components-react": "^7.16.0",
+    "carbon-icons": "^7.0.7",
+    "cors": "^2.8.5",
+    "d3": "^5.16.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-sass": "^4.14.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"layout.js","sourceRoot":"","sources":["layout.ts"],"names":[],"mappings":"","sourcesContent":["import { LayoutDirection } from \"./enums\";\n\nexport interface LayoutConfigs {\n\t/**\n\t * Direction/orientation of the layout\n\t */\n\tdirection?: LayoutDirection;\n}\n"]}

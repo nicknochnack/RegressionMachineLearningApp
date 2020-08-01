@@ -1,0 +1,1 @@
+//# sourceMappingURL=../../src/interfaces/model.js.map
